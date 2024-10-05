@@ -8,8 +8,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  margin: 0;
+    padding-left: 5em;
+    padding-right: 5em;
     
-    min-height: 100dvh;
+    
     
   }
 
@@ -224,12 +227,18 @@ button:hover::after {
 }
 .video{
   display: flex;
-  justify-content: center;
+  
+  padding: 5em;
+  width: auto;
+  height: auto;
+  
+  margin-top: 51px;
 }
 .video video{
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  height: auto;
+  
+  
   
 }
-
 
